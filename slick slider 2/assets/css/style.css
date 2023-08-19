@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 447.81px;
+    padding-top: 100px;
+}
+
+.mxauto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col4 {
+    width: 33.3%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.para {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 555px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+    color: #4F5665;
+    ;
+
+}
+
+.card {
+
+    width: 100%;
+    padding: 30px;
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
+    height: 290px;
+    margin-top: 60px;
+
+}
+
+.name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.profession {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.four {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.pl108 {
+    padding-left: 108px;
+}
+
+.align-item {
+    align-items: center;
+}
+
+
+
+.para1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 340px;
+    padding-top: 20px;
+}
+
+.btnnxt,
+.btnprev {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F53838;
+    position: relative;
+    left: 85%;
+}
+
+.btnnxt:hover,
+.btnprev:hover {
+    background-color: #F53838;
+    border: 2px solid #F53838;
+    transition: all 300ms linear;
+}
+
+.btnnxt:hover svg path,
+.btnprev:hover svg path {
+    fill: #fff;
+}
+
+
+
+.pl40 {
+    padding-left: 40px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+
+
+.slick-dots li.slick-active button:before {
+    color: #F53838;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #4F5665;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
